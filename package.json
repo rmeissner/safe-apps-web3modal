@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/gnosis/safe-apps-sdk#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.0",
-    "@typescript-eslint/parser": "^4.15.0",
+    "@gnosis.pm/safe-apps-sdk": "^2.0.0",
     "@types/react": "^16.9.50",
     "@types/react-dom": "^16.8.4",
-    "@gnosis.pm/safe-apps-sdk": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -36,5 +36,8 @@
   "peerDependencies": {
     "@gnosis.pm/safe-apps-sdk": "^2.0.0",
     "web3modal": "^1.9.3"
+  },
+  "dependencies": {
+    "@gnosis.pm/safe-apps-provider": "^0.1.0"
   }
 }
